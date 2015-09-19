@@ -81,5 +81,16 @@ class ImageViewerFrame extends JFrame
                System.exit(0);
             }
          });
+
+      JMenu menu2 = new JMenu("Help");
+      menuBar.add(menu2);
+      JMenuItem aboutItem = new JMenuItem("About");
+      menu2.add(aboutItem);
+      aboutItem.addActionListener(new ActionListener()
+      {
+         public void actionPerformed(ActionEvent event) {
+               JOptionPane.showMessageDialog(null, "Java Image Viewer, version 1.0\nCopyright 2015 (c) Sun Renjie");
+         }
+      });
    }
 }
