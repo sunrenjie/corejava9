@@ -1,7 +1,10 @@
 package notHelloWorld;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JComponent;
+import java.awt.EventQueue;
+import java.awt.Dimension;
+import java.awt.Graphics;
 
 /**
  * @version 1.32 2007-06-12
